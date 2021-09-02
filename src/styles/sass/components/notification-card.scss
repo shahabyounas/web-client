@@ -1,0 +1,13 @@
+.notification-card {
+    display: flex;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+    min-height: 6rem;
+    margin-top: 1rem;
+    padding: 1rem 0;
+    cursor: pointer;
+    border-radius: 8px;
+    background: var(--card-bg--lighter);
+    border: 2px solid transparent;
+  }
+  

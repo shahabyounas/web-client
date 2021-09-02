@@ -1,0 +1,49 @@
+// @import "~bootstrap/scss/bootstrap";
+
+@import "./globals.scss";
+@import "./landing.scss";
+@import "./config/colors.scss";
+@import "./config/variables.scss";
+
+// Components
+@import "./components/attendees.scss";
+@import "./components/avatar.scss";
+@import "./components/button.scss";
+@import "./components/event-card.scss";
+@import "./components/event-carousel.scss";
+@import "./components/event-create.scss";
+@import "./components/event-details.scss";
+@import "./components/event-list.scss";
+@import "./components/featured-user.scss";
+@import "./components/FilterSlide.scss";
+@import "./components/home.scss";
+@import "./components/income.scss";
+@import "./components/layout.scss";
+@import "./components/multi-step-progress-bar.scss";
+@import "./components/profile.scss";
+@import "./components/notification-card.scss";
+@import "./components/notifications.scss";
+
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+    outline: 0;
+    outline: thin dotted \9;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}

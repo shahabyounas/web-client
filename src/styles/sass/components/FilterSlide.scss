@@ -1,0 +1,31 @@
+.slide-bg{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.2);
+
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    transition: 4s;
+    right: 0;
+}
+
+.slide-inner{
+    position: fixed;
+    padding: 32px;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 25%;
+    max-width: 640;
+    background-color: #fff;
+}
+
+.slide-inner .close-icon{
+    position: fixed;
+    top: 10;
+    right: 10;
+}

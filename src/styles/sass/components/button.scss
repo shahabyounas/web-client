@@ -1,0 +1,12 @@
+$enable-negative-margins: true;
+
+.button {
+    box-shadow: 0px 4px 4px rgba(153, 150, 150, 0.25);
+    width: fit-content;
+    border-radius: 4px;
+}
+
+.color {
+    background-color: var(--primary);
+    color: white;
+}

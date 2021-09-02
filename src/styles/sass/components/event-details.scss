@@ -1,0 +1,15 @@
+.event-detail {
+
+    &__tickets {
+        border: var(--border);
+        border-radius: var(--border-radius-sm);
+        filter: drop-shadow(0px 2px 4px rgba(220, 220, 220, 0.5));
+    }
+
+    &__ticket {
+        border: var(--border);
+        border-radius: var(--border-radius-sm);
+        background-color:#E1E3F8;
+    }
+    
+}

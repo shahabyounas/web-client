@@ -1,0 +1,20 @@
+.numberCardBorder {
+
+    border: var(--border-small);
+    border-radius: 6px;
+
+    & > :not(:first-child):not(:last-child){
+        border-left: var(--border-small);
+        border-right: var(--border-small);
+    }
+}
+
+.createProfile {
+    border: var(--border-small);
+    border-radius: 6px;
+    font-size: 14px;
+
+    &__btn {
+        padding: 1rem 6rem !important;
+    }
+}

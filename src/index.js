@@ -2,6 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import 'bootstrap/dist/css/bootstrap.css'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "react-datepicker/dist/react-datepicker.css";
+import 'react-tabs/style/react-tabs.css';
+import './styles/sass/base.scss'
+
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(

@@ -1,0 +1,146 @@
+$border-color: #E5E3DD;
+
+.event-create-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.heading {
+    width: 250px;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.instructions {
+    width: 16rem;
+}
+
+.typeCard {
+    border: var(--border-small);
+    width: 200px;
+    height: 150px;
+    cursor: pointer;
+
+    &--selected {
+        background-color: #E5E5FF;
+    }
+}
+
+.image-transitions {
+    transition: all .5s;
+}
+
+.desc {
+    font-size: 12px;
+    width: 10rem;
+    margin: 0 1.2rem;
+}
+
+.createFooter {
+    height: 80px;
+    background-color: #FAFAFA;
+    margin-top: auto;
+}
+
+.dateInput {
+    border: var(--border-small);
+    border-radius: 6px;
+    max-height: 5rem;
+}
+
+.date-picker {
+    margin: -3rem;
+}
+
+.scheduleTable {
+    border: var(--border-small);
+}
+
+.timePicker {
+    width: 5rem;
+    border: var(--border-small);
+    cursor: pointer;
+}
+
+.dayRow {
+    border-top: var(--border-small);
+}
+
+.slotPicker {
+    max-width: 10rem;
+}
+
+.imageUploadBox {
+    position: relative;
+    width: 100%;
+    border: var(--border-small);
+    padding: 1.5rem 1.2rem 0.75rem 1.2rem;
+    border-radius: 6px;
+}
+
+.imageUploadBox .deleteBtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: var(--white);
+    color: var(--primary);
+    font-size: 16px;
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    visibility: hidden;
+}
+
+.imageUploadBox:hover {
+    .deleteBtn {
+        visibility: visible;
+    }
+}
+
+.imageUploadBox .deleteBtn:hover {
+    opacity: 0.9;
+  }
+
+.dottedBorder {
+    border: 2px dashed $border-color;
+    height: 7rem;
+    border-radius: 6px;
+}
+
+.selectImageBox {
+    border-right: var(--border-small);
+    width: 20rem;
+    cursor: pointer;
+}
+
+.clickCanvaBox {
+    width: 20rem;
+    font-size: small;
+}
+
+.editorClassName {
+    min-height: 10rem;
+    max-height: 10rem;
+    padding: 0 1rem;
+}
+
+.wrapperClassName {
+    border: var(--border-small);
+}
+
+.file-input {
+    color: transparent;
+    cursor: pointer;
+}
+
+.file-input::-webkit-file-upload-button {
+    visibility: hidden;
+  }

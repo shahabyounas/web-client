@@ -1,0 +1,24 @@
+
+$primary: #4C5DE4;
+$primary300: #A5A7FF;
+$primary400: #696CFF;
+$primary500: #696CFF;
+$black: #000000;
+$black300: #333333;
+$white: #ffffff;
+$border-color: #E5E3DD;
+$page-bg: #fafafa;
+$grey-bg: #E5E9EE;
+
+:root {
+    --primary: #{$primary};
+    --primary300: #{$primary300};
+    --primary400: #{$primary400};
+    --primary500: #{$primary500};
+    --black: #{$black};
+    --black300: #{$black300};
+    --white: #{$white};
+    --border-color: #{$border-color};
+    --page-bg: #{$page-bg};
+    --grey-bg: #{$grey-bg};
+}

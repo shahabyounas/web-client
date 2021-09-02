@@ -1,0 +1,39 @@
+.profile {
+    &__card {
+        background-color: var(--white);
+        box-shadow: var(--shadow);
+        border-radius: var(--border-radius-lg);
+        min-height: 32rem;
+        padding: 2rem 1rem;
+    }
+
+    &__create {
+
+        &-card {
+            background-color: var(--white);
+            padding: 2rem;
+            box-shadow: 0px 0px 1px rgba(12, 26, 75, 0.24), 0px 3px 8px -1px rgba(50, 50, 71, 0.05);
+            border-radius: var(--border-radius-lg);
+        }
+    }
+
+    &__social-links {
+        border: none;
+        padding: 0.5rem 0.2rem;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__category {
+        width: 4.5rem;
+        height: 1.5rem;
+        margin: 4px;
+        padding: 3px 4px;
+        background-color: var(--grey-bg);
+        text-align: center;
+        border-radius: 2px;
+        font-size: 12px;
+    }
+}

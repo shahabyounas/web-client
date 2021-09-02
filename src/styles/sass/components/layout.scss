@@ -1,0 +1,134 @@
+$border-color: #E5E3DD;
+$box-shadow: 0px 0px 1px rgba(12, 26, 75, 0.24), 0px 3px 8px -1px rgba(50, 50, 71, 0.05);
+
+.layout__navbar {
+  height: 100vh;
+  box-shadow: 0px 2px 10px rgba(172, 172, 172, 0.5);
+  min-width: 90px;
+  max-width: 90px;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px 5px 0px 0px;
+  position: sticky;
+  top: 0;
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+
+    li {
+        margin-top: 1.7rem;
+        font-size: 12px;
+        color: #515151;
+
+        a {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+    }
+  }
+}
+
+.homeLogo {
+  border-bottom: 1px solid #aaabff;
+  margin: 0 0.75rem;
+  padding: 1rem 0;
+}
+
+.topBar {
+  height: 4rem;
+  border-bottom: 1px solid $border-color;
+}
+
+
+.line {
+  width: 18px;
+  height: 2px;
+  background-color: #403C3C;
+  margin: 2px 0;
+  border-radius: 6px;
+}
+
+.dropdownButton {
+  box-shadow: $box-shadow;
+  padding: 0.35rem 0.4rem;
+  border-radius: 20px;
+  border: 0.5px solid #BDBDBD;
+
+}
+
+.dropdown-toggle-btn {
+  height: 1rem;
+  margin-top: -4rem;
+  box-shadow: none;
+  border: none;
+  padding: 0;
+
+ &:focus, &:hover, &:checked {
+    border:none;
+    outline: none;
+    box-shadow: none; 
+  }
+}
+
+.dropdown-link {
+  padding: 1rem;
+  min-width: 10rem;
+  background-color: red;
+}
+.dropdown-toggle:after {
+  border: 0;
+}
+
+.Menu{
+  // position: relative;
+  // margin: 2em 3em;
+  margin-top: 20rem;
+}
+
+.m-item{
+  // position: absolute;
+  // top: 0;
+
+  width: 10rem;
+  background-color: white;
+  box-shadow: 1px 2px 2px #301A4B;
+  border: 1px solid transparent;
+
+  padding: 0.2em;
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.5em;
+  color: black;
+  cursor: pointer;
+
+  transition: 1s;
+}
+
+.m-item:hover{
+  border-color: black;
+}
+
+.m-logo{
+  z-index: 1;
+}
+
+.open-1{
+  // top: 1.8em;
+  background-color: #9b5de5;
+}
+.open-2{
+  // top: 3.6em;
+  background-color: #f15bb5;
+}
+.open-3{
+  // top: 5.4em;
+  background-color: #00BBF9;
+}
