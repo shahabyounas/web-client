@@ -5,13 +5,12 @@ import './FilterSlide'
 
 const FilterSlide = (props) => {
 
-    const { trigger, children } = props;
+    const { trigger, setTrigger, children } = props;
     return trigger ? (
     <div className="slide-bg">
         <div className="slide-inner">
-            
-            <span onClick={() => props.setTrigger(false)}>  <Closeicon className="close-icon" ></Closeicon></span>
-            {children}
+            <div onClick={() => setTrigger()} className="close-icon"> <Closeicon  /></div>
+            <div className="my-3">{children}</div>
         </div>
     </div>
     ) : "There is nothing in the Slide";

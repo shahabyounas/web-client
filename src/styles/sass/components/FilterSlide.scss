@@ -5,12 +5,7 @@
     width: 100%;
     height: 100vh;
     background-color: rgba(0,0,0,0.2);
-
-    display: flex;
-    justify-content: right;
-    align-items: right;
     transition: 4s;
-    right: 0;
 }
 
 .slide-inner{
@@ -26,6 +21,6 @@
 
 .slide-inner .close-icon{
     position: fixed;
-    top: 10;
-    right: 10;
+    top: 20;
+    right: 20px;
 }
