@@ -7,6 +7,7 @@ import Insights from './pages/insights'
 import Notifications from './pages/notifications'
 import Settings from './pages/settings'
 import EventCreate from './pages/event/create'
+import Event from './pages/event'
 
 
 const routes = [
@@ -28,7 +29,7 @@ const routes = [
     {
         name: 'event',
         path: '/event',
-        component: Home,
+        component: Event,
     },
     {
         name: 'event',
